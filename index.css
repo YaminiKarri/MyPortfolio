@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway";
+}
+
+/*header style*/
+.header {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/882/270/558/computer-background-1920x1200-wallpaper-preview.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.6);
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h1 {
+  color: #f97300;
+}
+
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 60%;
+  line-height: 1.75;
+}
+
+.description button {
+  border: 1px solid #f97300;
+  background: #f97300;
+  color: #fff;
+}
+
+.navbar {
+  background: #f97300;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 2em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #f97300;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.bg-dark {
+  background-color: white !important;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+/*About section*/
+.about {
+  position: relative;
+  padding-top: 100px;
+}
+
+.about h1 {
+  color: #f97300;
+  padding-bottom: 0px;
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about span {
+  display: block;
+  color: #030202;
+  position: absolute;
+  left: 115px;
+}
+
+.about .desc {
+  padding: 1.5em;
+  border-left: 4px solid #10828c;
+}
+
+.about .desc h3 {
+  color: #10828c;
+}
+
+.about .desc p {
+  line-height: 2;
+  color: #262626;
+}
+
+/*Portfolio*/
+.portfolio {
+  margin: 4em 0;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.portfolio h1 {
+  color: #f97300;
+  margin: 2em;
+}
+
+.portfolio img {
+  height: 10rem;
+  width: 80%;
+  margin: 1em;
+}
+
+.portfolio h4 {
+  color: #10828c;
+}
+
+/*projects section*/
+.projects {
+  margin: 4em 0;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.projects h1 {
+  color: #f97300;
+  margin: 2em;
+}
+
+.projects .card {
+  box-shadow: 0 0 20px #ccc;
+}
+
+.projects .card img {
+  width: 100%;
+  height: 12em;
+}
+
+.projects .card-title {
+  color: #0c5d64;
+}
+
+.projects .card-body {
+  padding: 1em;
+}
+
+/*Contact section*/
+.Contact {
+  margin: 4em 0;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.Contact h1 {
+  color: #f97300;
+  margin: 2em;
+}
+
+.Contact .item {
+  position: relative;
+}
+
+.Contact .item img {
+  width: 40%;
+  height: 6em;
+}
+
+.Contact .des {
+  background: #f97300;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition: 0.3s ease-in-out;
+}
+
+.Contact .item:hover .des {
+  height: 100%;
+  background: #f973007d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
+}
